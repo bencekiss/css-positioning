@@ -27,3 +27,45 @@ figure {
   width: 50%;
   margin: 40px auto;
 }
+
+
+/*Additional code of mine*/
+
+
+article.film {
+    position: relative;
+    clear: both;
+    overflow: hidden;
+    border: 1px solid lightgray;
+}
+
+figure.film-poster {
+    position: relative;
+    float: left;
+    width: 40%;
+    margin: 10px;
+}
+
+i.fa {
+    color: red;
+}
+
+.action-watch-later {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.action-like {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+}
+
+
+.film-details {
+  float: left;
+  width: 45%;
+  height: 100%;
+  display: inline-block;
+}
